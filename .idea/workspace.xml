@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="874b78ab-31d7-4489-a694-533be3f37f8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -110,7 +110,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.ObjectOrientedProgramming [:Class.Main.main()].executor": "Run",
+    "Gradle.ObjectOrientedProgramming [:inheritance.Hierarchial.Main.main()].executor": "Run",
+    "Gradle.ObjectOrientedProgramming [:inheritance.Hybrid.Main.main()].executor": "Run",
+    "Gradle.ObjectOrientedProgramming [:inheritance.MultiLevel.Main.main()].executor": "Run",
+    "Gradle.ObjectOrientedProgramming [:inheritance.Multiple.Main.main()].executor": "Run",
     "Gradle.ObjectOrientedProgramming [:inheritance.singleLevel.Main.main()].executor": "Run",
+    "Gradle.ObjectOrientedProgramming [:object.Main.main()].executor": "Run",
     "Gradle.ObjectOrientedProgramming [:startup.Main.main()].executor": "Run",
     "Gradle.ObjectOrientedProgramming [build].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -121,17 +127,30 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.editor",
     "settings.editor.splitter.proportion": "0.27522936"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.inheritance.singleLevel.Main">
+  <component name="RunManager" selected="Application.inheritance.Hybrid.Main">
+    <configuration name="Class.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class.Main" />
+      <module name="ObjectOrientedProgramming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="startup.Main" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.Multiple.Main" />
       <module name="ObjectOrientedProgramming.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="startup.*" />
+          <option name="PATTERN" value="inheritance.Multiple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inheritance.singleLevel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.singleLevel.Main" />
+    <configuration name="inheritance.Hierarchial.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Hierarchial.Main" />
       <module name="ObjectOrientedProgramming.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.singleLevel.*" />
+          <option name="PATTERN" value="inheritance.Hierarchial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,33 +171,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectOrientedProgramming [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="inheritance.Hybrid.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Hybrid.Main" />
+      <module name="ObjectOrientedProgramming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.Hybrid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="object.Main" />
+      <module name="ObjectOrientedProgramming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.inheritance.singleLevel.Main" />
+        <item itemvalue="Application.inheritance.Hybrid.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.ObjectOrientedProgramming [build]" />
+        <item itemvalue="Application.inheritance.Hierarchial.Main" />
+        <item itemvalue="Application.Class.Main" />
+        <item itemvalue="Application.object.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +282,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/inheritance/MultiLevel/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
