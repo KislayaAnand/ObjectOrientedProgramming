@@ -113,7 +113,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.ObjectOrientedProgramming [:Abstraction.Main.main()].executor": "Run",
+    "Gradle.ObjectOrientedProgramming [:Abstraction.interfaceImpl.Main.main()].executor": "Run",
     "Gradle.ObjectOrientedProgramming [:Class.Main.main()].executor": "Run",
+    "Gradle.ObjectOrientedProgramming [:Encapsulation.Main.main()].executor": "Run",
     "Gradle.ObjectOrientedProgramming [:inheritance.Hierarchial.Main.main()].executor": "Run",
     "Gradle.ObjectOrientedProgramming [:inheritance.Hybrid.Main.main()].executor": "Run",
     "Gradle.ObjectOrientedProgramming [:inheritance.MultiLevel.Main.main()].executor": "Run",
@@ -136,39 +139,39 @@
     "settings.editor.splitter.proportion": "0.27522936"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.polymorphism.Overriding.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Abstraction.abstractClass.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.abstractClass.Main" />
+      <module name="ObjectOrientedProgramming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.abstractClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Abstraction.interfaceImpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.interfaceImpl.Main" />
+      <module name="ObjectOrientedProgramming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.interfaceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Multiple.Main" />
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.Main" />
       <module name="ObjectOrientedProgramming.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.Multiple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="inheritance.Hierarchial.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Hierarchial.Main" />
-      <module name="ObjectOrientedProgramming.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.Hierarchial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="inheritance.Hybrid.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Hybrid.Main" />
-      <module name="ObjectOrientedProgramming.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.Hybrid.*" />
+          <option name="PATTERN" value="Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Abstraction.interfaceImpl.Main" />
+        <item itemvalue="Application.Abstraction.abstractClass.Main" />
         <item itemvalue="Application.polymorphism.Overriding.Main" />
         <item itemvalue="Application.polymorphism.Overloading.Main" />
-        <item itemvalue="Application.inheritance.Hybrid.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.inheritance.Hierarchial.Main" />
       </list>
     </recent_temporary>
   </component>
